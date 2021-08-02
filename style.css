@@ -1615,6 +1615,12 @@
         .burger-li-item {
             display: block;
         }
+        .header-phone:hover>.tool-menu-ul {
+            display: none;
+        }
+        .header-phone::after {
+            display: none;
+        }
     }
     
     @media screen and (max-width: 600px) {
